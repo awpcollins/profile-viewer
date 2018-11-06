@@ -1,0 +1,16 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "arrow-parens": ["error", "as-needed"]
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "globals": {
+        "GitHub": true,
+        "UI": true
+    }
+}
